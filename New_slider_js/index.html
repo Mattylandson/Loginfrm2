@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login_form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+  <section class="main">
+  <div class="container box">
+    <!-- Login section -->
+    <div class="login main-container">
+        <div class="login-img img-container">
+          <img src="./images/rb_7183.png" alt="">
+        </div>
+
+        <div class="login-form form-container">
+          <form action="">
+            <h2 class="text-center">Login</h2>
+            <input
+              type="text"
+              class="form-control form-control-lg mb-3"
+                placeholder="Username">
+            <input
+             type="password"
+             class="form-control form-control-lg mb-3"
+              placeholder="Password">
+
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg">Login</button>
+              </div>
+
+              <a href="#" class="forgot-link">Forgot password ? </a>
+              <span>
+                Don't have an account?
+                <a href="#" class="register-link">Register</a>
+              </span>
+              
+              <!-- 5;22;59 vidtime -->
+              
+          </form>
+        </div>
+      </div>
+
+    <!-- Register section -->
+
+     <div class="register main-container">
+
+      <div class="register-form form-container">
+        <form action="">
+          <h2 class="text-center">Register</h2>
+          <input
+            type="text"
+            class="form-control form-control-lg mb-3"
+              placeholder="Username">
+
+          <input
+            type="email"
+            class="form-control form-control-lg mb-3"
+              placeholder="Email">
+
+          <input
+           type="password"
+           class="form-control form-control-lg mb-3"
+            placeholder="Password">
+
+            <div class="d-grid">
+              <button class="btn btn-primary btn-lg">Register</button>
+            </div>
+
+            <span>
+              Have an account?
+              <a href="#" class="login-link">Login</a>
+            </span>
+            
+        </form>
+      </div>
+      <div class="register-img img-container">
+        <img src="./images/3458588_62348.jpg" alt="">
+      </div>
+    </div>
+
+
+    <!-- Forgot section -->
+
+    <div class="forgot main-container">
+
+      <div class="register-form form-container">
+        <form action="">
+          <h2 class="text-center">Reset Password</h2>
+         
+          <input
+           type="password"
+           class="form-control form-control-lg mb-3"
+            placeholder="Password">
+
+            <div class="d-grid">
+              <button class="btn-frgt btn btn-primary btn-lg">Reset</button>
+            </div>
+
+            <span>
+              We will send you a reset link !!!
+            </span>
+            
+        </form>
+
+        <div class="close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="forgot-img img-container">
+        <img src="./images/rb_7183.png" alt="forgot">
+      </div>
+    </div> 
+  </div>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
